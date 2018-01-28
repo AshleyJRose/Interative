@@ -63,7 +63,7 @@ header {
     font-size: 17em;
     
    font-family: 'Sancreek', cursive;
-    color:#3A3335;
+    color:#3A0010;
 }
 
 
@@ -75,7 +75,7 @@ header {
   }
 
 .pink {
-     color: #3A3335;
+     color: #3A0010;
      font-family: 'Ultra', serif;
     text-transform: uppercase;
     letter-spacing: 0.1em;
@@ -88,7 +88,7 @@ header {
   }
 
 .projects {
-     color:#3A3335;
+     color:#3A0010;
       font-family: 'Ultra', serif;
     text-transform: uppercase;
     letter-spacing: 0.1em;
