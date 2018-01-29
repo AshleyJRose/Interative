@@ -27,9 +27,28 @@ body{
 
 .row {
    margin:0 auto; 
+   display:inline-block;
+   text-align:center;
+   vertical-align: top;
+    
+}
+
+.row_1 {
+   margin:0 auto; 
+   display:inline-block;
+   text-align:center;
+   vertical-align: top;
+    display:inline-block;
+    
+    
+}
+
+.row_2 {
+   margin:0 auto; 
    display:block;
    text-align:center;
    vertical-align: top;
+    display:inline-block;
     
 }
 
@@ -38,7 +57,7 @@ body{
     display:inline-block;
     text-align:Center;
     float: left;
-    padding:3em;
+    padding:5em;
     width: 50%;
 }
     
@@ -47,8 +66,8 @@ body{
     display:inline-block;
     text-align:Center;
     float: left;
-    padding:3em;
-    width: 33%;
+    padding:5em;
+    width: 30%;
 }
 
 
