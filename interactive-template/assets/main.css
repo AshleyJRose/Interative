@@ -27,7 +27,6 @@ body{
 
 .row {
    margin:0 auto; 
-   display:inline-block;
    text-align:center;
    vertical-align: top;
     
@@ -35,20 +34,21 @@ body{
 
 .row_1 {
    margin:0 auto; 
-   display:inline-block;
    text-align:center;
    vertical-align: top;
-    display:inline-block;
+    padding-top: 1em;
+
     
     
 }
 
 .row_2 {
    margin:0 auto; 
-   display:block;
+  padding-left: 1em;
+    padding-right: 1em;
    text-align:center;
    vertical-align: top;
-    display:inline-block;
+    
     
 }
 
@@ -56,9 +56,10 @@ body{
     box-sizing:border-box;
     display:inline-block;
     text-align:Center;
-    float: left;
-    padding:5em;
-    width: 50%;
+    float: middle;
+    padding:1em;
+    width: 40%;
+    vertical-align: top;
 }
     
 .col_2 {
@@ -66,14 +67,15 @@ body{
     display:inline-block;
     text-align:Center;
     float: left;
-    padding:5em;
-    width: 30%;
+    padding:1em;
+    width: 33%;
 }
 
 
 header {
-    padding: 8em 4em 2em 4em;
-    text-align: Left;
+    padding: 8em 6em 2em 4em;
+    text-align: center;
+    background-size: 100%;
     
        }
 
