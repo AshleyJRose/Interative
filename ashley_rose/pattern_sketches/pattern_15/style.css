@@ -5,6 +5,12 @@
     clear: both;    
 }
 
+#circle_4 {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    clear: both;    
+}
 
 #circle_1 div{
   width: 5vw;
