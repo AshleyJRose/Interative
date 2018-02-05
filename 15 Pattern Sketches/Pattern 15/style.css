@@ -1,0 +1,75 @@
+#circle_1, #circle_2, #circle_3, #circle_4, #circle_5, #circle_6 {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    clear: both;    
+}
+
+
+#circle_1 div{
+  width: 5vw;
+  height: 5vw;
+  border-radius: 50%;
+     background-color: black;
+  margin: 10vw;
+   display: block; 
+    float: right;
+}
+
+
+
+#circle_2 div{
+  width: 7vw;
+  height: 7vw;
+  border-radius: 50%;
+     background-color: black;
+  margin: 15vw;
+   display: block; 
+    float: left;
+}
+
+
+#circle_3 div{
+  width: 20vw;
+  height: 20vw;
+  border-radius: 50%;
+     background-color: black;
+  margin: 20vw;
+   display: block; 
+    float: left;
+}
+
+
+#circle_4 div{
+  width: 30vw;
+  height: 30vw;
+  border-radius: 50%;
+     background-color: white;
+  margin: 5vw;
+   display: block; 
+    float: left;
+}
+
+
+
+#circle_5 div{
+  width: 80vw;
+  height: 80vw;
+  border-radius: 50%;
+     background-color: black;
+  margin: 20vw;
+   display: block; 
+    float: left;
+    opacity: .5;
+}
+
+
+#circle_6 div{
+  width: 1vw;
+  height: 1vw;
+  border-radius: 50%;
+     background-color: black;
+  margin: 2vw;
+   display: block; 
+    float: left;
+}

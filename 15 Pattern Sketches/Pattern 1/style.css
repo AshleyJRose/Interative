@@ -1,0 +1,96 @@
+/* purple: #9b8ea8 */
+/* blue: #869dc6 */
+/* brown: #846b57 */
+/* pink: ffb4a7 */
+/* dark brown: 593d3a */
+
+body {
+    background-color: #d5ebf6;
+}
+
+#triangle {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    clear: both;
+    
+    
+}
+
+#triangle div {
+    
+    
+    
+  
+    border-left: 10vh solid transparent;
+	border-right: 5vh solid transparent;
+	border-bottom:30vh solid #ffb84a;
+    display:block;
+    transform: rotate(12deg);
+    float: left;
+    margin: 8vw;
+    opacity: .5;
+}
+
+#triangle_2 {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    clear: both;
+    
+    
+}
+
+
+#triangle_2 div {
+    border-left: 30vh solid transparent;
+	border-right: 5vh solid transparent;
+	border-bottom:30vh solid #593d3a;
+    display:block;
+    transform: rotate(24deg);
+    float: left;
+    margin: 10vw;
+    opacity: .5;
+}
+
+#circles {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    
+    
+}
+
+#circles div {
+
+	width: 30vw;
+	height: 30vw;
+	background-color: #ffb4a7;
+    
+    opacity: .5;
+    margin: 10vw;
+    float: right;
+    border-radius: 50%;
+    
+    display:block;
+
+}
+
+#circles_2 {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    
+    
+}
+
+#circles_2 div {
+
+	width: 2vw;
+	height: 2vw;
+	background-color: #9b8ea8;
+    display:block;
+    margin: 10vw;
+    float: left;
+    border-radius: 50%;
+}

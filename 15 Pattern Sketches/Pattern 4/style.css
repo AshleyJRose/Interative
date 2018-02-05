@@ -1,0 +1,104 @@
+#line_1 {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    clear: both;    
+}
+
+
+#line_1 div {
+    height: 4vh;
+    width: 10vw;
+    display: block;
+    border-bottom: solid black;
+    float: left;
+    margin: 2vw;
+    transform: rotate(20deg);
+    
+}
+
+#line_2 {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    clear: both;    
+}
+
+
+#line_2 div {
+    height: 4vh;
+    width: 20vw;
+    display: block;
+    border-bottom: solid black;
+    float: left;
+    margin: 2vw;
+    transform: rotate(100deg);
+   
+    
+}
+
+#line_3 {
+    height: 100vh;
+    width: 200vw;
+    position: absolute;
+    clear: both;    
+}
+
+
+#line_3 div {
+    height: 4vh;
+    width: 200vw;
+    display: block;
+    border-bottom: solid #0b81bf;
+    border-bottom-width: thick;
+    float: left;
+    margin-top: 2vh;
+    margin-bottom: 20vw;
+    margin-left: -100vw;
+    transform: rotate(-45deg);
+     opacity: .5;
+    
+}
+
+#circles div {
+    height: 9vw;
+    width: 9vw;
+    background-color: darkcyan;
+    margin: 10vw;
+    margin-left: 2vw;
+    float: left;
+    border-radius: 50%;
+    transform: skewX(20deg);
+    opacity: .3;
+}
+#circles {
+width: 100vw;
+    height: 100vh;
+    position: absolute;
+    clear: both;
+}
+
+
+#circles_2 div {
+    height: 40vw;
+    width: 40vw;
+    background-color: darkcyan;
+    margin: 10vw;
+    float: left;
+    border-radius: 50%;
+    transform: skewX(20deg);
+    opacity: .3;
+  
+}
+#circles_2 {
+    width: 200vw;
+    height: 100vh;
+    position: absolute;
+    clear: both;
+}
+
+#circles #other{
+   margin: 40vh;
+    width: 3vw;
+    height: 3vw;
+}

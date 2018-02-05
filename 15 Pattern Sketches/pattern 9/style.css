@@ -1,0 +1,59 @@
+body {
+    background-color: #D5DCF9;
+}
+
+#parallelogram {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    clear: both;    
+}
+
+#parallelogram div {
+	width: 20vw;
+	height: 20vw;
+	-webkit-transform: skew(20deg);
+	   -moz-transform: skew(20deg);
+	     -o-transform: skew(20deg);
+	background: #8EDCE6;
+    display: block;
+    float: left;
+    margin: 2vw;
+}
+
+#parallelogram_2 {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    clear: both;    
+}
+
+#parallelogram_2 div {
+	width: 20vw;
+	height: 20vw;
+	-webkit-transform: skew(-20deg);
+	   -moz-transform: skew(-20deg);
+	     -o-transform: skew(-20deg);
+	background: #725E54;
+    display: block;
+    float: left;
+    margin: 2vw;
+    opacity: .5;
+}
+
+#circles div {
+    height: 9vw;
+    width: 9vw;
+    background-color: white;
+  
+    margin-left: 2vw;
+    float: left;
+    border-radius: 50%;
+    opacity: .3;
+}
+#circles {
+width: 100vw;
+    height: 100vh;
+    position: absolute;
+    clear: both;
+}

@@ -1,0 +1,124 @@
+body {
+    
+    
+}
+
+#hexagon {
+width: 100vw;
+    height: 100vh;
+    position: absolute;
+    clear: both;
+}
+
+#hexagon div{
+	width: 20vw;
+	height: 12vw;
+	background: #F3CA40;
+	position: relative;
+     display: block;
+    float: left;
+    margin: 10vw;
+}
+#hexagon div:before {
+	content: "";
+	position: absolute;
+	top: -5vw;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 10vw solid transparent;
+	border-right: 10vw solid transparent;
+	border-bottom: 5vw solid #F3CA40;
+     display: block;
+    float: left;
+}
+#hexagon div:after {
+	content: "";
+	position: absolute;
+	bottom: -5vw;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 10vw solid transparent;
+	border-right: 10vw solid transparent;
+	border-top: 5vw solid #F3CA40;
+     display: block;
+    float: left;
+}
+
+#hexagon div {
+    display: block;
+    float: left;
+}
+
+#column div {
+    width: 5vw;
+    height: 200vh;
+    margin: .5vw;
+    float:left;
+    display: block;
+    background-color: #577590;
+    transform: rotate(-20deg);
+    opacity: .54;
+}
+
+#column_2 {
+    width: 200vw;
+    height: 100vh;
+    position: absolute;
+    clear: both;
+}
+#column_2 div {
+    width: 1vw;
+    height: 200vh;
+    margin: 2vw;
+    float:left;
+    display: block;
+    background-color: #F2A541;
+    transform: rotate(20deg);
+    opacity: .8;
+}
+	
+#hexagon_2 {
+width: 100vw;
+    height: 100vh;
+    position: absolute;
+    clear: both;
+    opacity: .7;
+}
+
+#hexagon_2 div{
+	width: 7vw;
+	height: 6vw;
+	background: #F08A4B;
+	position: relative;
+     display: block;
+    float: left;
+    margin: 3vw;
+}
+#hexagon_2 div:before {
+	content: "";
+	position: absolute;
+	top: -5vw;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 5vw solid transparent;
+	border-right: 5vw solid transparent;
+	border-bottom: 2vw solid #F08A4B;
+     display: block;
+    float: left;
+}
+#hexagon_2 div:after {
+	content: "";
+	position: absolute;
+	bottom: -5vw;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 5vw solid transparent;
+	border-right: 5vw solid transparent;
+	border-top: 2vw solid #F08A4B;
+     display: block;
+    float: left;
+}

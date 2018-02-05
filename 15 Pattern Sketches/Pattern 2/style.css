@@ -1,0 +1,81 @@
+body {
+    background-color: aqua;
+    opacity: 0.7;
+}
+
+
+#rectangles_1 {
+    width: 100vw;
+    height: 50vh;
+    position: absolute;
+    clear: both;
+}
+
+#rectangles_1  div {
+    height: 5vw;
+    width: 20vw;
+    
+    display:block;
+    background-color: blueviolet;
+    float: left;
+    margin: 2vw;
+    opacity: 0.3;
+    transform: rotate(70deg);
+}
+
+#rectangles_2 {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    clear: both;
+}
+
+#rectangles_2  div {
+    height: 2vw;
+    width: 100vw;
+    
+    display:block;
+    background-color: greenyellow;
+    float: left;
+    margin: 10vw;
+}
+
+#rectangles_3 {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    clear: both;
+}
+
+#rectangles_3  div {
+    height: 2vw;
+    width: 100vw;
+    
+    display:block;
+    background-color: greenyellow;
+    float: left;
+    margin: 10vw;
+    transform: rotate(7deg);
+  
+    
+}
+
+#circles_3 {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    clear: both;
+}
+
+#circles_3  div {
+    height: 1vw;
+    width: 1vw;
+    border-radius: 50%;
+    
+    display:block;
+    background-color: orange;
+    float: left;
+    margin: 1vw;
+    transform: skewX(20deg);
+    opacity: 0.5;
+}

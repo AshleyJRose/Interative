@@ -1,0 +1,121 @@
+body{
+    background-color: #B9FFB7;
+}
+
+#burst-8  {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    clear: both;    
+    display: block;
+    float: right;
+   
+}
+
+#burst-8 div{
+    background: #F19A3E;
+    width: 5vh;
+    height: 5vh;
+    position: relative;
+    text-align: center;
+    -webkit-transform: rotate(20deg);
+       -moz-transform: rotate(20deg);
+        -ms-transform: rotate(20deg);
+         -o-transform: rotate(20eg);
+     display: block;
+    float: right;
+     margin: 25vh;
+}
+#burst-8 div:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 55vh;
+    width: 80px;
+    background: #F19A3E;
+    -webkit-transform: rotate(135deg);
+       -moz-transform: rotate(135deg);
+        -ms-transform: rotate(135deg);
+         -o-transform: rotate(135deg);
+     display: block;
+    float: right;
+}
+
+#burst-8_2  {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    clear: both;    
+    display: block;
+    float: right;
+     opacity: .5;
+}
+
+#burst-8_2 div{
+    background: #98D9C2;
+    width: 80vw;
+    height: 80vw;
+    position: relative;
+    text-align: center;
+    -webkit-transform: rotate(30deg);
+       -moz-transform: rotate(30deg);
+        -ms-transform: rotate(30deg);
+         -o-transform: rotate(30eg);
+     display: block;
+    float: right;
+     margin: 0vw;
+    position: absolute;  
+      opacity: .5;
+}
+#burst-8_2 div:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height:80vw;
+    width: 80vw;
+    background: #98D9C2;
+    -webkit-transform: rotate(145deg);
+       -moz-transform: rotate(145deg);
+        -ms-transform: rotate(145deg);
+         -o-transform: rotate(145deg);
+     display: block;
+    float: right;
+    position: absolute;  
+    opacity: .5;
+}
+
+#circles {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;  
+}
+
+#circles div {
+
+	width: 10vw;
+	height: 10vw;
+	background-color: #A64BD1;
+    
+    margin: 2vw;
+    float: left;
+    border-radius: 50%;
+
+    
+    display:block;
+
+}
+
+#line_2 div {
+    height: 4vh;
+    width: 100vw;
+    display: block;
+    border-bottom: dashed white;
+    border-bottom-width: thick;
+    float: left;
+    margin: 2vw;
+    transform: rotate(-5deg);
+   
+    
+}

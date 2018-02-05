@@ -1,0 +1,45 @@
+body {
+    background-color: aqua;
+}
+
+#squares div {
+    height: 10vw;
+    width: 10vw;
+    
+    display:block;
+    background-color: blueviolet;
+    float: left;
+    margin: 2vw;
+}
+
+#squares {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    clear: both;
+    
+    
+}
+
+#squares .blue {
+    background-color: powderblue;
+}
+#squares #yellow {
+    background-color: mistyrose;
+}
+
+#circles div {
+    height: 3vw;
+    width: 3vw;
+    background-color: darkcyan;
+    margin: 10vw;
+    float: left;
+    border-radius: 50%;
+    transform: skewX(20deg);
+}
+#circles {
+width: 100vw;
+    height: 100vh;
+    position: absolute;
+    clear: both;
+}

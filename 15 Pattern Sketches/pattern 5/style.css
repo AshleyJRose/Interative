@@ -1,0 +1,85 @@
+body {
+    background-color: #3066BE;
+}
+
+#moon_1 {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    clear: both;
+}
+
+#moon_1 div {
+  width: 20vw;
+  height: 10vw;
+  border-radius: 50%;
+  background-color:  #B4C5E4;
+  display: block;
+  margin: 5vw;
+  float: left;
+  transform: rotate(45deg);
+ 
+    
+}
+
+
+#moon_1 #rotate {
+  width: 30vw;
+  height: 29vw;
+  transform: rotate(135deg);
+    background-color: #FE5F55;
+
+}
+
+#moon_2 {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    clear: both;
+}
+
+#moon_2 div {
+  width: 50 vw;
+  height: 50vw;
+  border-radius: 50%;
+  box-shadow: 15px 15px 0 0 #FFADC6;
+     display: block;
+    
+    transform: rotate(20deg);
+}
+
+#moon_3 {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    clear: both;
+}
+
+#moon_3 div {
+  width: 50 vw;
+  height: 50vw;
+  border-radius: 50%;
+  box-shadow: 15px 15px 0 0 #DDA3B2;
+     display: block;
+    
+    transform: rotate(-20deg);
+}
+
+
+/*
+#moon_1 {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    clear: both;
+}
+
+#moon_1 div {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  box-shadow: 15px 15px 0 0 red;
+ display: block;
+}
+
+*/

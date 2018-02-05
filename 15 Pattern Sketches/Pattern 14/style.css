@@ -1,0 +1,89 @@
+body {
+    
+    background-color: #000000;
+}
+
+#cone {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    clear: both;    
+}
+
+
+#cone div{
+  width: 0;
+  height: 0;
+  border-left: 70px solid transparent;
+  border-right: 70px solid transparent;
+  border-top: 100px solid #B97375;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  transform: rotate(45deg);
+  margin: 10vw;
+   display: block; 
+    float: right;
+}
+
+#cone_2 {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    clear: both;    
+}
+
+#cone_2 div {
+  width: 0;
+  height: 0;
+  border-left: 140px solid transparent;
+  border-right: 140px solid transparent;
+  border-top: 200px solid #CEB1BE;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  transform: rotate(90deg);
+  margin: 5vw;
+   display: block; 
+    float: right;
+}
+
+#circles_2 div {
+    height: 40vw;
+    width: 40vw;
+    background-color: darkcyan;
+    margin: 10vw;
+    float: left;
+    border-radius: 50%;
+    transform: skewX(20deg);
+    opacity: .3;
+  
+}
+#circles_2 {
+    width: 200vw;
+    height: 100vh;
+    position: absolute;
+    clear: both;
+     
+}
+
+#circles_1 {
+    width: 200vw;
+    height: 100vh;
+    position: absolute;
+    clear: both;
+     
+}
+
+#circles_1 div{
+    height: 2vw;
+    width: 2vw;
+    display: block; 
+    background-color: #FFFFFF;
+    margin: 10vw;
+    float: left;
+    border-radius: 50%;
+    
+    float: right;
+    
+}
