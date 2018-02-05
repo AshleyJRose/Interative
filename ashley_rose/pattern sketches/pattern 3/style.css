@@ -28,7 +28,7 @@ body{
 #diamond {
     width: 100vw;
     height: 100vh;
-    position: relative;
+    position: fixed;
     opacity: .5;
     display:block;
     float: left;

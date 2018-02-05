@@ -26,7 +26,7 @@ body {
 #rectangles_2 {
     width: 100vw;
     height: 100vh;
-    position: absolute;
+    position: fixed;
     clear: both;
 }
 
@@ -43,7 +43,7 @@ body {
 #rectangles_3 {
     width: 100vw;
     height: 100vh;
-    position: absolute;
+    position: fixed;
     clear: both;
 }
 
