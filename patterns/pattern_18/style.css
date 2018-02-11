@@ -1,0 +1,127 @@
+body {
+    background-color: #BFD1E5;
+    width: 200vw;
+}
+#circles_2 {
+    width: 200vw;
+    height: 100vh;
+    position: fixed;  
+}
+
+#bigcircle {
+    width: 200vw;
+    height: 100vh;
+    position: fixed;  
+}
+
+#bigcircle div {
+
+	width: 80vw;
+	height: 80vw;
+	background-color: lightseagreen;
+    margin: 15vw;
+    float: left;
+    float: left;
+    border-radius: 50%;
+    opacity: .5;
+    
+    
+    display:block;
+
+}
+
+#circles_2 div {
+
+	width: 10vw;
+	height: 10vw;
+	background-color: #542344;
+    margin-top: 5vw;
+    margin: 15vw;
+    float: right;
+    border-radius: 50%;
+    
+    
+    display:block;
+
+}
+
+#circles_3 {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;  
+}
+
+#circles_3 div {
+
+	width: 30vw;
+	height: 30vw;
+	background-color: #D8BFAA;
+    
+    margin: 9vw;
+    float: left;
+    border-radius: 50%;
+    opacity: .7;
+    
+    display:block;
+
+}
+
+#line_1, #line_2 , .triangle {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    clear: both;    
+}
+
+
+#line_1 div {
+    height: 4vh;
+    width: 100vw;
+    display: block;
+    border-bottom: dotted #808080;
+    border-width: thick;
+    float: left;
+    margin: 2vw;
+    transform: rotate(40deg);
+    
+}
+
+#line_2 div {
+    height: 20vh;
+    width: 200vw;
+    display: block;
+    border-bottom: dotted #808080;
+    border-width: thin;
+    float: right;
+    margin: 2vw;
+    transform: rotate(-20deg);
+    
+}
+
+#circles_3 #rose{
+    background-color: rosybrown;
+    position: 
+}
+
+#triangle {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    clear: both;    
+}
+
+#triangle div {
+	width: 0;
+	height: 0;
+	border-top: 5vw solid #D82D5B;
+	border-right: 500px solid transparent;
+    display: block;
+    float: right;
+    margin: 2vw;
+    opacity: .3;
+    transform: rotate(195deg);
+  
+  
+  
+}
+    

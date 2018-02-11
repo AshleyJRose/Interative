@@ -1,0 +1,73 @@
+body{
+    background: #c3c7c8;
+}
+
+#circles_1 {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    clear: both;
+    
+}
+
+
+#circles_1 div {
+    height: 20vw;
+    width: 20vw;
+    
+    display:block;
+    border-radius: 50%;
+    float: left;
+    margin: -5vw;
+  background: linear-gradient(-90deg, #EF946C, #064360);
+     opacity: .5;
+   
+}
+
+
+#diamond, \ {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+
+    display:block;
+    float: left;
+}
+
+
+    
+#diamond div{
+    
+    height: 6vw;
+    width: 6vw;
+    
+    display:block;
+    background-color: #ff5380;
+    float: left;
+    margin: 5vw;
+     transform:rotate(60deg);
+}
+
+
+
+#circles_2 {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    clear: both;
+    
+}
+
+
+#circles_2 div {
+    height: 20vw;
+    width: 20vw;
+    
+    display:block;
+    border-radius: 50%;
+    float: left;
+    margin: 5vw;
+  background: orange;
+     opacity: .2;
+   
+}

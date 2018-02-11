@@ -1,0 +1,109 @@
+body {
+    width: 200vw;
+    margin: 0 auto;
+}
+
+#triangle {
+     width: 100vw;
+    height: 100vh;
+    position: absolute;
+    clear: both;
+}
+
+ #triangle-up div {
+	width: 0;
+	height: 0;
+	border-left: 20vw solid transparent;
+	border-right: 20vw solid transparent;
+	border-bottom: 10vw solid #FF8811;
+    display: block;
+      margin: 5vw;
+      float: left;
+    opacity: .8;
+    transform: rotate(200deg);
+     
+}
+  
+
+#triangle-right {
+     width: 100vw;
+    height: 100vh;
+    position: absolute;
+    clear: both;
+}
+
+ #triangle-right div {
+	width: 0;
+	height: 0;
+	border-left: 2vw solid transparent;
+	border-right: 2vw solid transparent;
+	border-bottom: 5vw solid #9DD9D2;
+    display: block;
+      margin: 5vw;
+      float: left;
+    transform: rotate(45deg);
+   
+     
+}
+
+
+#triangle-left {
+     width: 100vw;
+    height: 100vh;
+    position: fixed;
+
+}
+
+ #triangle-left div {
+	width: 0;
+	height: 0;
+	border-left: 2vw solid transparent;
+	border-right: 2vw solid transparent;
+	border-bottom: 2vw solid #392F5A;
+    display: block;
+      margin: 5vw;
+      float: left;
+    transform: rotate(95deg);
+       opacity: .7;
+     
+}
+
+#square {
+     width: 200vw;
+    height: 100vh;
+    position: fixed;
+    clear: both;
+}
+
+#square div {
+	width: 200vw;
+	height: 3vw;
+    display: block;
+    background-color:#F4D06F;
+      margin: 5vw;
+      float: left;
+    transform: rotate(15deg);
+    opacity:.5;
+     
+}
+
+#square_2 {
+     width: 200vw;
+    height: 100vh;
+    position: fixed;
+}
+
+#square_2 div {
+	width: 200vw;
+	height: 1vw;
+    display: block;
+    background-color: lightsteelblue;
+    border-bottom-width: thin;
+    border-bottom-style: double;
+      margin: 1vw;
+      float: left;
+    transform: rotate(190deg);
+    opacity: .5;
+    
+     
+}

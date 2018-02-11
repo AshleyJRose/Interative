@@ -1,0 +1,199 @@
+/* This is a CSS comment! Use it
+   to organize code or turn CSS attributes
+   "off" without deleting code
+*/
+
+body {
+		background-color: black;/* sweet blanched almond */
+	margin: 0; /* on most browsers the body has a 
+				  default margin of 8px */
+}
+
+/*
+	You can use comments to make big divisions
+	in your code if you want !
+*/
+
+/* this is for all the <div> inside of
+	<div id="circles">
+	--> <div></div> <--
+*/
+
+
+
+#star-six {
+	margin-left: -30px;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+
+
+#star-six div{
+	width: 0;
+	height: 0;
+	border-left: 14vw solid transparent;
+	border-right: 5vw solid transparent;
+	border-bottom: 2vw solid #FF9505;
+	position: relative;
+	 float: right;
+    margin: 20vw;
+    opacity:.7;
+
+}
+#star-six div:after {
+	width: 0;
+	height: 0;
+	border-left: 15vw solid transparent;
+	border-right: 5vw solid transparent;
+	border-top: 10vw solid #A5BE00;
+	position: absolute;
+	content: "";
+	top: 30px;
+	left: -50px;
+    opacity:.7;
+}
+	
+
+
+
+
+#squares div{
+	height: 10vw; 
+    width: 10vw;
+    background-color: #A5BE00;
+    margin: 2vw;
+    float: right;
+}
+
+
+#squares .blue {
+	background-color: blue;
+}
+
+
+#squares #yellow {
+	background-color: greenyellow;
+}
+
+#big_circle {
+    width: 100vw;
+    height: 100vw;
+    position: fixed;
+  
+}
+
+#big_circle div {
+    width: 50vw;
+    height:50vw;
+    border-radius: 50%;
+    background-color: aqua;
+    float:left;
+    display: block;
+    margin: -20vw;
+}
+
+
+#circles {
+    width: 100vw; /* a little larger than the window */
+    position: absolute;
+    top: -5vw; 
+    left: -5vw; 
+}
+
+
+#circles div {
+	height: 2vw;
+	width: 11vw;
+	background-color: white;
+	border-radius: 50%;
+	margin: 12vw;
+	float: left;
+
+
+}
+
+#circles_2{
+    width: 100vw; /* a little larger than the window */
+    position: fixed;
+    top: -5vw; 
+    left: -15vw; 
+}
+
+#circles_2 div {
+	height: 2vw;
+	width: 2vw;
+	background-color: white;
+	border-radius: 50%;
+	margin: 12vw;
+	float: left;
+   
+}
+
+#triangles {
+	width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#triangles div { 
+	/* from 
+	   https://css-tricks.com/examples/ShapesOfCSS/
+	*/
+	width: 0;
+	height: 0;
+	/* "triangles" are just crazy border styles */
+    border-left: 3vw solid transparent;
+    border-right: 5vw solid transparent;
+    border-bottom: 50vw solid mistyrose;
+	float: left;
+    transform: rotate(20deg); /* time for fun */
+    box-shadow: 20px 20px 20px rgba(50,50,50,.5);
+    /* yes there are blend modes in CSS!! */
+}
+
+
+
+#star-five {
+
+	width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+
+
+}
+
+
+#star-five div{
+   position: relative;
+   display: block;
+   border-right:  20vw transparent ;
+   border-bottom: 70vw  solid purple;
+   border-left:   20vw solid transparent;
+   float:left;
+    margin: 10vw;
+    transform: rotate(125deg);
+    opacity: .7;
+
+}
+#star-five div:before {
+   border-bottom: 7vw solid #E80077;
+   border-left: 3vw solid transparent;
+   border-right: 3vw solid transparent;
+   position: absolute;
+    margin: 40vw;
+   top: -45px;
+   left: 2px;
+   display: block;
+   content: '';
+    opacity: .7;
+    
+}
+
+

@@ -1,0 +1,95 @@
+
+
+
+
+
+body {
+	background-color: white; 
+	margin: 0; /
+}
+
+}
+
+#triangles {
+	position: fixed;
+	width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+   
+    
+}
+
+#triangles div { 
+	
+	width: 0;
+	height: 0;
+	
+    border-left: 50vw solid transparent;
+    border-right: 50vw solid transparent;
+    border-top: 50vw solid #50C9CE;
+	float: left;
+	box-shadow: 80px 80px 80px #FC6A91;
+	mix-blend-mode: saturation;
+	transform: rotate(-145deg);
+    opacity: .6;
+
+
+  
+}
+
+
+
+#triangles2 {
+	position: fixed;
+	width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+   
+    
+}
+
+#triangles2 div { 
+
+	width: 0;
+	height: 0;
+    border-left: 10vw solid transparent;
+    border-right: 10vw solid transparent;
+    border-top: 5vw solid #9883E5;
+	float: left;
+	box-shadow: 20px 20px 20px #72A1E5;
+	mix-blend-mode: overlay;
+	transform: rotate(-45deg);
+    opacity: .2;
+
+
+  
+}
+
+#triangles_3 {
+	position: fixed;
+	width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+   
+    
+}
+
+#triangles_3 div { 
+
+	width: 0;
+	height: 0;
+    margin-top: -30vh;
+    margin-right: -10vw;
+    border-left: 30vw solid transparent;
+    border-right: 30vw solid transparent;
+    border-top: 70vw solid #150811;
+	float: left;
+	transform: rotate(-145deg);
+    opacity: .5;
+
+
+  
+}
