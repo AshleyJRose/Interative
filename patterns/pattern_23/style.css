@@ -65,6 +65,9 @@ body {
     float: left;
     opacity:.4;
     mix-blend-mode: soft-light;
+}
 
-
+#circle:hover div{
+     transform: scale(5,5);
+    background-color: white;
 }
