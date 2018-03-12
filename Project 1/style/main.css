@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo|Cabin+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+body{
+  margin: auto 0;
+ 
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+#promptQ {
+	margin-top: 15%
+}
+
+#gradient_layer{
+	background-color: blue;
+  	padding: 50px;
+  	opacity: .7;
+  	height: 100vh;
+  	width: 100vw;
+}
+
+
+.row {
+	width: 100%;
+	/* outline-color: black;*/
+	padding: 0 10% 10% 10%;
+}
+
+
+p {
+	font-family: 'Roboto Slab', serif;
+	float: right;
+}
+
+
+
+#question_box {
+
+	width: 50%;
+	box-sizing: border-box;
+	float: left;
+	display: inline-block;
+	margin-top: 40px;
+	padding: 0 20px; 
+}
+
+
+#question_buttonNO{
+	background-color: black;
+	width: 70%;
+	height: 40%;
+
+	margin: 0px auto;
+	padding-top: 5px;
+}
+
+#question_buttonYES {
+	background-color: #EF68FF;
+	width: 70%;
+	height: 40%;
+	margin: 0px auto;
+	padding-top: 5px;
+
+}
+
+h1 {
+	font-size: 120px;
+	text-align: center;
+}
+h2 {
+	font-size: 40px;
+	font-family: 'Arvo', serif;
+	font-family: 'Cabin Condensed', sans-serif;
+	text-align: center;
+	color: white;
+	opacity: 100%
+}
+
+.columns {
+	width: 100%;
+	padding: 5%;
+}
+.article1 {
+	width: 40%;
+	float:left;
+	padding:10px;
+	outline-color: black;
+	outline-style: solid;
+}
+
+.article {
+	width: 20%;
+	float:left;
+	padding:10px;
+	outline-color: black;
+	outline-style: solid;
+	display: inline-flex;
+}
+

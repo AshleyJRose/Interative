@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo|Cabin+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+body { 
+padding: 50px;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+h1 {
+	margin: 0px auto ;
+	text-align: center;
+	font-size: 70px;
+
+}
+
+#date {
+	column-span: all;
+    border-top: 1px solid #2f2f2f;
+    border-bottom: 1px solid #2f2f2f;
+    text-align: center;
+}
+
+header {
+	column-span: all;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+
+}
+
+.container {
+	width: 100%;
+}
+
+/* column #1 */
+
+.column1 {
+	width: 33%;
+	box-sizing: border-box;
+	border: 1px solid #2f2f2f;
+	display: inline-block;
+	float: left;
+	background-color: white;
+
+}
+
+#article1 {
+	column-width: 10em;
+	margin-bottom: 30px;
+	border-bottom: 1px solid #2f2f2f;
+	padding-bottom: 30px;
+	padding-right: 10px;
+	overflow: hidden;
+
+}
+
+
+
+.article2 {
+	column-width: 8em;
+	margin-bottom: 30px;
+	border-bottom: 1px solid #2f2f2f;
+	padding-bottom: 30px;
+	padding-right: 10px;
+	overflow: hidden;
+
+}
+
+
+/* column #2 */
+
+
+.column2 {
+	width: 33%;
+	box-sizing: border-box;
+	border: 1px solid green;
+	display: inline-block;
+	float: left;
+}
+
+.article3 {
+	margin-top: -20px;
+	border-bottom: 1px solid green;
+	padding-bottom: 30px;
+	padding-right: 10px;
+	padding-left: 10px;
+
+}
+
+/* column #3 */
+
+
+.column3 {
+	width: 33%;
+	box-sizing: border-box;
+	border: 1px solid #2f2f2f;
+	display: inline-block;
+}
+
+.article4 {
+	column-width: 8em;
+	margin-bottom: 30px;
+	border-bottom: 1px solid #2f2f2f;
+	padding-bottom: 30px;
+	padding-right: 10px;
+	overflow: hidden;
+
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+
+
+h3 {
+	margin-top: -5px;
+}
+
