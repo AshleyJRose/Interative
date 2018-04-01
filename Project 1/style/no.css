@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css?family=Arvo|Cabin+Condensed');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 
@@ -39,7 +40,6 @@ header {
 .column1 {
 	width: 33%;
 	box-sizing: border-box;
-	border: 1px solid #2f2f2f;
 	display: inline-block;
 	float: left;
 	background-color: white;
@@ -75,7 +75,6 @@ header {
 .column2 {
 	width: 33%;
 	box-sizing: border-box;
-	border: 1px solid green;
 	display: inline-block;
 	float: left;
 }
@@ -95,7 +94,6 @@ header {
 .column3 {
 	width: 33%;
 	box-sizing: border-box;
-	border: 1px solid #2f2f2f;
 	display: inline-block;
 }
 
@@ -118,4 +116,3 @@ header {
 h3 {
 	margin-top: -5px;
 }
-

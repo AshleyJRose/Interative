@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>random text sizes - webdwall</title>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>
+function typografy() {
+        var minSize = 15;
+        var maxSize = 80;
+        var colorise = true;
+        var colorArray = ['#369', '#D74700', '#C4D73F'];
+        $(".js_typografy").each(function () {
+                var retHTML = "";
+               
+                var size = getRandomInt(minSize, maxSize);
+                size = Math.ceil(size / 10) * 10;
+                if (colorise == true) {
+                        var j = getRandomInt(0, colorArray.length - 1);
+                        if (j < 0) { j = 0; }
+                        retHTML += "<span style='font-size:" + size + "px; color:" + colorArray[j] + "'> " + $(this).text() + "</span>";
+                }
+                else
+                { retHTML += " <span style='font-size:" + size + "px'>" + $(this).text() + "</span>"; }
+               
+                $(this).text('');
+                $(this).html(retHTML);
+               
+        });
+}
+function getRandomInt(min, max) {
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+$(document).ready(function () {
+        typografy();
+});
+</script>
+</head>
+<body>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+<a href="#" class="js_typografy">Aliquam condimentum elit ac </a>
+odio eleifend vel lobortis leo condimentum. </p>
+</p>Nullam tempor, mi eu hendrerit bibendum, <a href="#" class="js_typografy">nisl risus</a> interdum tortor, nec euismod orci justo at nisl.
+Vivamus facilisis, <a href="#" class="js_typografy">nibh id lacinia</a> condimentum, dolor purus aliquet augue, </p>
+</p>
+</body>
+</html>

@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Draggable - Default functionality</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+
+
+  <style>
+  #draggable { 
+    width: 150px; 
+    height: 150px; 
+    padding: 0.5em; 
+    margin-bottom: 30px;
+    border-bottom: 1px solid #2f2f2f;
+    padding-bottom: 30px;
+    padding-right: 10px;
+
+  }
+
+#cirlceshape {
+  width: 500px;
+  height: 100px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  font-family: 'Faster One', cursive;
+  font-size: 60px;
+  line-height: 2px;
+  color: #40E0D0;
+   position: relative;
+    left: -20px;
+}
+
+.message{
+   background-color: blue;
+   height: 50;
+   opacity: 50%;
+   position:absolute;
+
+}
+
+h1 {
+  margin: 0px auto;
+  text-align: center;
+  padding: 90px;
+}
+
+  
+  </style>
+
+
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#draggable" ).draggable();
+  } );    
+
+   $('#draggable').hover(function() { 
+            $("#draggable").toggleID("#cirlceshape");
+        });
+
+</script>
+<script >
+  
+  // Save data to sessionStorage
+sessionStorage.setItem('firstVisit', '1');
+
+/* Fix size on document ready.*/
+$(function()
+{
+    if (!sessionStorage.getItem('firstVisit') === "1")
+    {
+       $(".message").show(); 
+    } 
+
+    //Close element.
+    $(".message").click(function()
+    {
+       $(this).hide();
+    });
+
+    $(".message").css({
+        'height': 200+'px'
+    });
+
+     $("message").css({
+        'width': 1200+'px'
+    });
+
+    $(".message_pad").css({
+        'left': ($(document).width()/2 - 500/2)+'px'
+    });
+});
+/*
+* Fix size on resize.
+*/
+$(window).resize(function(){
+    $(".message").css({
+        'height': $(document).height()+'px'
+    });
+    $(".message_pad").css({
+        'left': ($(document).width()/2 - 500/2)+'px'
+    });
+});
+</script>
+
+</head>
+<body>
+
+<div class="container">
+
+  <div class="message">
+    <div class="message_pad">
+        <div id="message">
+          <h1>Customize your news by clicking!</h1>
+        </div>
+        <div class="message_leave">
+
+        </div>
+    </div>
+</div>
+
+<container>
+
+
+
+    <div id="draggable" class="ui-widget-content">
+
+            <div id="article1" class="ui-widget-content"> 
+            <h3>With Snap ‘Yes’ in Oval Office, Trump Gambles on North Korea</h3>
+            <p>WASHINGTON — Summoned to the Oval Office on the spur of the moment, the South Korean envoy found himself face to face with President Trump one afternoon last week at what he thought might be a hinge moment in history. </p>
+
+            <p>Chung Eui-yong had come to the White House bearing an invitation. But he opened with flattery, which diplomats have discovered is a key to approaching the volatile American leader. “We could come this far thanks to a great degree to President Trump,” Mr. Chung said. “We highly appreciate this fact.” </p>
+
+            <p>Then he got to the point: The United States, South Korea and their allies should not repeat their “past mistakes,” but South Korea believed that North Korea’s mercurial leader, Kim Jong-un, was “frank and sincere” when he said he wanted to talk with the Americans about giving up his nuclear program. Mr. Kim, he added, had told the South Koreans that if Mr. Trump would join him in an unprecedented summit meeting, the two could produce a historic breakthrough. </p>
+
+            <p>Mr. Trump accepted on the spot, stunning not only Mr. Chung and the other high-level South Koreans who were with him, but also the phalanx of American officials who were gathered in the Oval Office. </p>
+
+            <p>His advisers had assumed the president would take more time to discuss such a decision with them first. Defense Secretary Jim Mattis and Lt. Gen. H.R. McMaster, the president’s national security adviser, both expressed caution. If you go ahead with this, they told Mr. Trump, there will be risks and downsides.
+            </p>
+        </div>
+        <div class="article2"> 
+            <h3>Rebecca Miller on the Mother of All Subjects: Her Father</h3>
+            <p>Arthur Gelb, the human pinball machine who served for decades as The New York Times culture czar, had many fantastic stories. But my favorite was his attempt to assign our music critic a feature on Wanda Horowitz.</p>
+
+            <p>Arthur had met her at a dinner party one night and was intrigued by what life must be like when you are sandwiched between two artistic geniuses, catering to both. Wanda was the daughter of Arturo Toscanini and the wife of Vladimir Horowitz.</p>
+
+            <p>The critic, Harold Schonberg, invited her to lunch at the Algonquin, where she promptly had a fit. “Why am I talking to you about the miserable life I’ve been through with these two men!” she shrieked. “They ruined my life and they should roast in hell!” Interview over.</p>
+
+            <p>So when I find myself having lunch at Morandi in the West Village with Rebecca Miller, the daughter of Arthur Miller and the wife of Daniel Day-Lewis, I can’t resist asking her: What is it like to be sandwiched between two artistic geniuses, catering to both? </p>
+
+            <p>Ms. Miller, being as airy as Ms. Horowitz was acerbic, simply laughs.</p>
+
+            <p>“I knew them,” she says of the Horowitzes. “They’d come over to our house and he’d bring his own food because he was worried he was going to get poisoned. She seemed like a fairly dark character and he was very sensitive. He would play on our ridiculous piano. I could see where Horowitz wasn’t a barrel of laughs to be married to.”</p>
+
+            <p>As the beloved daughter of one of America’s most famous playwrights, Ms. Miller met everyone who was anyone, all from a worm’s eye vantage point in their home in Roxbury, Conn.</p>
+
+             <p>“For reasons I still haven’t figured out, nobody would put me to bed when they had dinner parties, so I was expected to just go under the table,” she said of her father and her mother, the esteemed Austrian photographer, Inge Morath. “And there was a big trestle in the middle and I would lie on this five-inch trestle because I was very narrow and just listen and be in my own imagination. Our very greedy dachshund was down there, too, making laps, looking for scraps.</p>
+
+             <p>“It’s a life that’s gone now, a life of artists who believed that if a coffee pot was broken, you welded it back together. It wasn’t a fancy life and it was very much about work and about decency in a certain way. I remember the McGovern fund-raiser in the barn that my father had when I was a kid. I wore purple hot pants thinking I was just so cool. And the Styrons and the Calders and all the people who lived in those hills in those days were there. They were bohemians in a way, but they were also very straight people. It wasn’t a bohemia or even Bloomsbury. They weren’t sleeping around. They were just hard-working people who drank a lot of wine at night.”</p>
+        </div>
+     </div>
+ 
+</body>
+</html>
