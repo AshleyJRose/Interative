@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Arvo|Cabin+Condensed');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab');
 
 
 body{
@@ -32,7 +33,7 @@ body{
 
 
 p {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Josefin Slab', serif;
 	float: right;
 }
 
@@ -70,11 +71,11 @@ p {
 h1 {
 	font-size: 120px;
 	text-align: center;
+	font-family: 'Josefin Slab', serif;
 }
 h2 {
 	font-size: 40px;
-	font-family: 'Arvo', serif;
-	font-family: 'Cabin Condensed', sans-serif;
+	font-family: 'Josefin Slab', serif;
 	text-align: center;
 	color: white;
 	opacity: 100%
