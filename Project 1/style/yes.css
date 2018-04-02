@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Arvo|Cabin+Condensed');
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 @import url('https://fonts.googleapis.com/css?family=Faster+One');
 @import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
 @import url('https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text');
 @import url('https://fonts.googleapis.com/css?family=Fascinate+Inline');
 @import url('https://fonts.googleapis.com/css?family=Monoton');
+@import url('https://fonts.googleapis.com/css?family=Chicle');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Slab');
-@import url('https://fonts.googleapis.com/css?family=Lily+Script+One');
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
 
 
 body { 
@@ -49,14 +50,10 @@ h1 {
 
 	.headerChange {
 	column-span: all;
-	text-transform: uppercase;
-	/*font-family: 'Fascinate Inline', cursive;*/
-	color: #EEC900;
-	font-size: 100px;
 	letter-spacing: -120px;
 	line-height: 5px;
 	position: absolute;
-	width: 200vw;
+	width: 100vw;
 	height: -100vw;
 	cursor: cell;
 	}
@@ -102,7 +99,6 @@ h1 {
 
 			width: 100vw;
 			height: 100px;
-			line-height: 2px;
 			position: absolute;
 		    left: -20px;
 		    cursor: cell;
@@ -145,12 +141,6 @@ h1 {
 
 	.article2change {
 		width: 300px;
-		height: 100px;
-		border-radius: 50px;
-		font-family: 'Faster One', cursive;
-		font-size: 60px;
-		line-height: 2px;
-		color: blue;
 		position: absolute;
 	    left: -20px;
 	    cursor: cell;
@@ -167,6 +157,7 @@ h1 {
 	border-bottom: 1px solid black;
 	padding-bottom: 30px;
 	padding-right: 10px;
+	left: -20px;
 	cursor: cell;}
 
 /* ARTICLE 3 statechange */
@@ -175,12 +166,8 @@ h1 {
 		width: 20vw;
 		height: 100vw;
 		border-radius: 50px;
-		font-family: 'Faster One', cursive;
-		font-size: 100px;
-		line-height: 2px;
-		color: #40E0D0;
 		position: absolute;
-	    left: -20px;
+	    left: -50px;
 	    cursor: cell;
 	}
 
@@ -197,11 +184,7 @@ h1 {
 
 	.article4change {
 		margin-top: -300px;
-		max-width: 30vw;
-		height: 100vw;
-		font-family: 'Libre Barcode 128 Text', cursive;
-		font-size: 200px;
-		color: orange;
+		left: -50px;
 		position: absolute;
 		cursor: cell;
 	}
@@ -216,6 +199,13 @@ h1 {
 	margin-top: 10px;
 	cursor: cell;
 }
+
+	.article5change {
+		margin-top: -300px;
+		height: 100vw;
+		position: absolute;
+		cursor: cell;
+	}
 
 .article6 {
 	
@@ -249,17 +239,13 @@ h1 {
 /* ARTICLE 21 statechange */
 
 	.article21change{
-	font-family: 'Fredericka the Great', cursive;
-	font-size: 100px;
-	line-height: 2px;
-	color: #9E0059;
 	position: absolute;
 	width: 100vw;
 	cursor: cell;
 	}
 
 .article22 {
-	margin-top: 10px;
+	margin-top: 20px;
 	border-bottom: 1px solid black;
 	padding-bottom: 30px;
 	padding-right: 10px;
@@ -271,17 +257,14 @@ h1 {
 /* ARTICLE 22 statechange */
 
 	.article22change{
-	font-family: font-family: 'Monoton', cursive;
-	font-size: 100px;
-	line-height: 2px;
-	color: #D8D4F2;
 	position: absolute;
 	width: 100vw;
+	margin-left: -2000px;
 	cursor: cell;
 	}
 
 .article23 {
-	margin-top: 20px;
+	padding-top: 20px;
 	border-bottom: 1px solid black;
 	padding-bottom: 30px;
 	padding-right: 10px;
@@ -289,6 +272,15 @@ h1 {
 	cursor: cell;
 
 }
+
+/* ARTICLE 23 statechange */
+
+	.article23change{
+	position: absolute;
+	width: 100vw;
+	argin-left: -1200px;
+	cursor: cell;
+	}
 
 .article24 {
 	margin-top: 20px;
@@ -300,6 +292,16 @@ h1 {
 
 }
 
+/* ARTICLE 24 statechange */
+
+	.article24change{
+	position: absolute;
+	width: 100vw;
+	cursor: cell;
+	margin-left: -200px;
+	}
+
+
 .article25 {
 	margin-top: 20px;
 	padding-bottom: 30px;
@@ -308,6 +310,16 @@ h1 {
 	cursor: cell;
 
 }
+
+/* ARTICLE 25 statechange */
+
+	.article25change{
+	position: absolute;
+	width: 100vw;
+	cursor: cell;
+	}
+
+
 /* column #3 */
 
 
@@ -325,6 +337,7 @@ h1 {
 	padding-bottom: 30px;
 	padding-right: 10px;
 	padding-left: 10px;
+
 	cursor: cell;
 
 }
@@ -332,13 +345,10 @@ h1 {
 /* ARTICLE 31 statechange */
 
 	.article31change{
-	font-family: font-family: 'Monoton', cursive;
-	font-size: 10px;
-	line-height: 2px;
-	color: #332E3C;
 	position: absolute;
 	width: 100vw;
 	cursor: cell;
+	margin-left: -500px;
 	}
 
 
@@ -349,9 +359,19 @@ h1 {
 	padding-bottom: 30px;
 	padding-right: 10px;
 	padding-left: 10px;
+
 	cursor: cell;
 
 }
+
+/* ARTICLE 32 statechange */
+
+	.article32change{
+	position: absolute;
+	width: 100vw;
+	cursor: cell;
+	margin-left: -1000px;
+	}
 
 .article33 {
 	margin-top: 20px;
@@ -359,9 +379,19 @@ h1 {
 	padding-bottom: 30px;
 	padding-right: 10px;
 	padding-left: 10px;
+
 	cursor: cell;
 
 }
+
+/* ARTICLE 33 statechange */
+
+	.article33change{
+	position: absolute;
+	width: 100vw;
+	cursor: cell;
+	margin-left: -1200px;
+	}
 
 .article34 {
 	margin-top: 20px;
@@ -372,6 +402,17 @@ h1 {
 	cursor: cell;
 
 }
+
+/* ARTICLE 34 statechange */
+
+	.article34change{
+	position: absolute;
+	width: 100vw;
+	cursor: cell;
+	margin-left: -1800px;
+	}
+
+
 .article35 {
 	margin-top: 20px;
 	padding-bottom: 30px;
@@ -380,6 +421,15 @@ h1 {
 	cursor: cell;
 
 }
+
+/* ARTICLE 35 statechange */
+
+	.article35change{
+	position: absolute;
+	width: 100vw;
+	cursor: cell;
+	margin-left: -2000px;
+	}
 
 
 *, *:before, *:after {

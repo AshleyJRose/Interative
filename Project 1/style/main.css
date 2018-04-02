@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Arvo|Cabin+Condensed');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 
+
 body{
   margin: auto 0;
  
@@ -98,5 +99,9 @@ h2 {
 	outline-color: black;
 	outline-style: solid;
 	display: inline-flex;
+}
+
+a {
+	text-decoration: none
 }
 
