@@ -1,16 +1,11 @@
 // Detect Downward Scrolling
 var position = $(window).scrollTop();
 $( window ).scroll(function() {
-	//print a thing
-	console.log("Position = " + position);
 	var scroll = $(window).scrollTop();
-	console.log("Scroll = " + scroll);
-   //if(position === 0 ) {
-   	//return;
-   //}
+   if(position === 0 ) {
+   	return;
+   }
    if (scroll > position) { 
-   	// is this thing ever true
-   	console.log("Scroll is larger than position");
    	grabNextPage();
    } else {
    	//console.log('up')
@@ -24,11 +19,11 @@ $( window ).scroll(function() {
 // Which Div to Show/Hide Logic onload
 var nextPage = Number(localStorage.getItem('mc-page'));
 if (!nextPage){
-	nextPage = 0;
+	nextPage = 0; 
 }
 window.addEventListener('load', function(){
 	showSlide(nextPage);
-});
+})
 
 // Show/Hide Div Logic
 var grabbingPage = false;
@@ -66,8 +61,3 @@ function showSlide(index) {
 		slideContainer.children[slideContainer.children.length-1].classList.add('show-slide');
 	}
 }
-
-//*var background = document.getElementById('slide-container');
-//	for (var i = 0; i < slideContainer.children.length; i++){
-//            elements[0].style.background=blue;
-//        }

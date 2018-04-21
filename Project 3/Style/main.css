@@ -5,12 +5,14 @@ body {
 	height:1200px;
 	cursor:hand;
 }
-h1{
-	margin-top:100px;
+#start{
+	
+	font-size: 50px;
 	font-family: 'Domine', serif;
+	text-align: center;
 	position: fixed;
-
 }
+
 .container {
 	height:30000px;
 	overflow-y: scroll;
@@ -29,4 +31,8 @@ h1{
 
 	opacity: 0;
 	transition: opacity .5s;
+}
+
+#slide {
+	background-color: blue;
 }
