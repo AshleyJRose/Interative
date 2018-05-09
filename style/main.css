@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css?family=Sancreek');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 @import url('https://fonts.googleapis.com/css?family=Megrim|Sancreek');
 @import url('https://fonts.googleapis.com/css?family=Chewy');
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC');
@@ -8,15 +8,14 @@
 @import url('https://fonts.googleapis.com/css?family=Cherry+Swash');
 
 
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900');
+
 * {
     margin: 0;
     padding: 0;
 }
 
-header{
-    background-color: #9E9516;
 
-}
 
 header {
     padding: 8em 6em 2em 4em;
@@ -28,11 +27,11 @@ header {
 
 body{
   
-  font-family: 'Cherry Swash', cursive;
+  font-family: 'Playfair Display', serif;
     
     color:#F4C022;
 
-    background-color: #9E9516;
+    background-color: #CFCCD6;
 }
 
 #main {
@@ -41,17 +40,24 @@ body{
 
 }
 
+#divider {
+  padding-bottom: 100px;
+
+}
+
 
 
 .title {
     
-    font-size: 100px;
+    font-size: 75px;
     
-   font-family: 'Sancreek', cursive;
-    color:#3A0010;
+font-family: 'Playfair Display', serif;
+
+    color: #D37D58;
     line-height: 25px;
     text-align: center;
     margin-bottom:70px;
+    font-weight: 900;
 }
 
 
@@ -73,24 +79,32 @@ body{
  .h3{
     color:white;
     text-align: Center;
-    font-size: 30px;
+    font-size: 100px;
   }
 
 .projects {
-     color:#3A0010;
-      font-family: 'Ultra', serif;
+     color:#5D4566;
+      font-family: 'Playfair Display', serif;
     text-transform: uppercase;
-    letter-spacing: 0.1em;
-    
 
 }
+    
+.projects1 {
+     color:#5D4566;
+      font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    padding-top: 100px;
+}  
+       
+
+
   a:hover {
      color: #FEFDFB;
     
     }
 
     a {
-        color: #F4C022;
+        color: #847979;
         text-decoration: none;
-        font-size: 1em;
+        font-size: 100px;
     }
