@@ -15,62 +15,8 @@
 
 header{
     background-color: #9E9516;
+
 }
-
-body{
-  background-color: #D81E5B;
-  font-family: 'Cherry Swash', cursive;
-    
-    color:#F4C022;
-}
-
-
-.row {
-   margin:0 auto; 
-   text-align:center;
-   vertical-align: top;
-    
-}
-
-.row_1 {
-   margin:0 auto; 
-   text-align:center;
-   vertical-align: top;
-    padding-top: 1em;
-
-    
-    
-}
-
-.row_2 {
-   margin:0 auto; 
-  padding-left: 1em;
-    padding-right: 1em;
-   text-align:center;
-   vertical-align: top;
-    
-    
-}
-
-.col_1 {
-    box-sizing:border-box;
-    display:inline-block;
-    text-align:Center;
-    float: middle;
-    padding:1em;
-    width: 40%;
-    vertical-align: top;
-}
-    
-.col_2 {
-    box-sizing:border-box;
-    display:inline-block;
-    text-align:Center;
-    float: left;
-    padding:1em;
-    width: 33%;
-}
-
 
 header {
     padding: 8em 6em 2em 4em;
@@ -79,14 +25,33 @@ header {
     
        }
 
+
+body{
+  
+  font-family: 'Cherry Swash', cursive;
+    
+    color:#F4C022;
+
+    background-color: #9E9516;
+}
+
+#main {
+  width: 70%;
+  margin: 0 auto;
+
+}
+
+
+
 .title {
-    text-transform: uppercase;
-    font-size: 17em;
+    
+    font-size: 100px;
     
    font-family: 'Sancreek', cursive;
     color:#3A0010;
-    line-height: 250px;
+    line-height: 25px;
     text-align: center;
+    margin-bottom:70px;
 }
 
 
@@ -108,6 +73,7 @@ header {
  .h3{
     color:white;
     text-align: Center;
+    font-size: 30px;
   }
 
 .projects {
